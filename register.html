@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./Javascript/Script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            Logo
+        </div>
+        <div class="myNav">
+            <a href="./home.html">Homepage</a>
+            <a href="">Utilities</a>
+            <a href="">Share</a>
+            <a href="">Knowledge</a>
+            <a href="./register.html">Register</a>
+            <a href="">Login</a>
+            <a href="">About us</a>
+        </div>
+    </header>
+    <section>
+        <center>
+            <form action="" onsubmit="return kiemtra1();">
+                <table>
+                    <tr>
+                        <td align="right">First name: </td>
+                        <td>
+                            <input id="txtFirst" class="myControl" autofocus> <span> *</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Last name: </td>
+                        <td>
+                            <input id="txtLast" class="myControl" autofocus> <span> *</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Country: </td>
+                        <td>
+                            <select id="txtCountry" style="margin-left: 40px; padding: 5px;">
+                                <option value="Vietnam" selected>Vietnam</option>
+                                <option value="India">India</option>
+                                <option value="Japan">Japan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Gender: </td>
+                        <td>
+                            <input type="radio" id="sex" name="sex" value="Male" checked style="margin-left: 40px;"> Male
+                            <input type="radio" id="sex" name="sex" value="Female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Email: </td>
+                        <td>
+                            <input id="txtEmail" class="myControl" type="email"> <span> *</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Telephone: </td>
+                        <td>
+                            <input id="txtPhone" class="myControl" type="text"> <span> *</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"></td>
+                        <td>
+                            <input type="submit" value="Register" class="btn" style="margin-left: 40px;">
+                            <input type="reset" value="Reset" class="btn">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+        </center>
+    </section>
+</body>
+
+</html>
